@@ -28,7 +28,7 @@ def rename_video_file(pathWithFile, currentFrame, Strpath, new_str):
         os.rename(old_name, new_name)
         
     except:
-        print("Ha saltado error pero no pasa nada, |-__-|")
+        print("An error has occurred but it's okay, |-__-|")
         os.rename(pathWithFile, Strpath + "\\" +str(currentFrame) + ".-" +  "Error" + ".mp4")
         pass
 
